@@ -781,35 +781,6 @@ So the attacks previously seen to WPS PIN are also valid here if PIN is used.
 
 This works like an Evil-Twin but for Wi-Fi direct, you can impersonate a group owner to try to make other devices like phons connect to you: `airbase-ng -c 6 -e DIRECT-5x-BRAVIA -a BB:BB:BB:BB:BB:BB mon0`
 
-## References
-
-* [https://posts.specterops.io/modern-wireless-attacks-pt-i-basic-rogue-ap-theory-evil-twin-and-karma-attacks-35a8571550ee](https://posts.specterops.io/modern-wireless-attacks-pt-i-basic-rogue-ap-theory-evil-twin-and-karma-attacks-35a8571550ee)
-* [https://posts.specterops.io/modern-wireless-attacks-pt-ii-mana-and-known-beacon-attacks-97a359d385f9](https://posts.specterops.io/modern-wireless-attacks-pt-ii-mana-and-known-beacon-attacks-97a359d385f9)
-* [https://posts.specterops.io/modern-wireless-tradecraft-pt-iii-management-frame-access-control-lists-mfacls-22ca7f314a38](https://posts.specterops.io/modern-wireless-tradecraft-pt-iii-management-frame-access-control-lists-mfacls-22ca7f314a38)
-* [https://posts.specterops.io/modern-wireless-tradecraft-pt-iv-tradecraft-and-detection-d1a95da4bb4d](https://posts.specterops.io/modern-wireless-tradecraft-pt-iv-tradecraft-and-detection-d1a95da4bb4d)
-* [https://github.com/gdssecurity/Whitepapers/blob/master/GDS%20Labs%20-%20Identifying%20Rogue%20Access%20Point%20Attacks%20Using%20Probe%20Response%20Patterns%20and%20Signal%20Strength.pdf](https://github.com/gdssecurity/Whitepapers/blob/master/GDS%20Labs%20-%20Identifying%20Rogue%20Access%20Point%20Attacks%20Using%20Probe%20Response%20Patterns%20and%20Signal%20Strength.pdf)
-* [http://solstice.sh/wireless/eaphammer/2019/09/10/eap-downgrade-attacks/](http://solstice.sh/wireless/eaphammer/2019/09/10/eap-downgrade-attacks/)
-* [https://www.evilsocket.net/2019/02/13/Pwning-WiFi-networks-with-bettercap-and-the-PMKID-client-less-attack/](https://www.evilsocket.net/2019/02/13/Pwning-WiFi-networks-with-bettercap-and-the-PMKID-client-less-attack/)
-* [https://medium.com/hacking-info-sec/ataque-clientless-a-wpa-wpa2-usando-pmkid-1147d72f464d](https://medium.com/hacking-info-sec/ataque-clientless-a-wpa-wpa2-usando-pmkid-1147d72f464d)
-
-TODO: Take a look to [https://github.com/wifiphisher/wifiphisher](https://github.com/wifiphisher/wifiphisher) (login con facebook e imitacionde WPA en captive portals)
-
-<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
-
-**HackenProof is home to all crypto bug bounties.**
-
-**Get rewarded without delays**\
-HackenProof bounties launch only when their customers deposit the reward budget. You'll get the reward after the bug is verified.
-
-**Get experience in web3 pentesting**\
-Blockchain protocols and smart contracts are the new Internet! Master web3 security at its rising days.
-
-**Become the web3 hacker legend**\
-Gain reputation points with each verified bug and conquer the top of the weekly leaderboard.
-
-[**Sign up on HackenProof**](https://hackenproof.com/register) start earning from your hacks!
-
-{% embed url="https://hackenproof.com/register" %}
 
 <details>
 
