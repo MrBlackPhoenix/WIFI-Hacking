@@ -1,7 +1,7 @@
-# <!--WIFI--> Penetration Testing
+# WIFI Penetration Testing
 
 
-## Basic wifi linux commands
+## <!--Basic wifi linux commands
 
 ```bash
 ip link show #List available interfaces
@@ -13,7 +13,7 @@ airodump-ng wlan0mon #Scan (default 2.4Ghz)
 airodump-ng wlan0mon --band a #Scan 5Ghz
 iwconfig wlan0 mode monitor #Put in mode monitor
 iwconfig wlan0mon mode managed #Quit mode monitor - managed mode
-iw dev wlan0 scan | grep "^BSS\|SSID\|WSP\|Authentication\|WPS\|WPA" #Scan available wifis
+iw dev wlan0 scan | grep "^BSS\|SSID\|WSP\|Authentication\|WPS\|WPA" #Scan available wifis-->
 ```
 
 ## Tools
