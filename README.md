@@ -1,7 +1,7 @@
 # WIFI Penetration Testing
 
 
-## Wifi basic commands
+## Basick wifi linux commands
 
 ```bash
 ip link show #List available interfaces
