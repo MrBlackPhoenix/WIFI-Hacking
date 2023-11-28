@@ -18,7 +18,7 @@ iw dev wlan0 scan | grep "^BSS\|SSID\|WSP\|Authentication\|WPS\|WPA" #Scan avail
 
 ## Tools
 
-### EAPHammer
+### [EAPHammer](https://github.com/s0lst1c3/eaphammer)
 
 ```
 git clone https://github.com/s0lst1c3/eaphammer.git
