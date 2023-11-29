@@ -1,4 +1,5 @@
 # WIFI Penetration Testing
+<!--https://github.com/MrBlackPhoenix-->
 
 
 ## Basic linux wifi commands
@@ -26,7 +27,7 @@ iw dev wlan0 scan | grep "^BSS\|SSID\|WSP\|Authentication\|WPS\|WPA" #Scan avail
 git clone https://github.com/s0lst1c3/eaphammer.git
 ./kali-setup
 ```
-
+<!--https://github.com/MrBlackPhoenix-->
 ### Airgeddon
 
 ```bash
@@ -299,7 +300,7 @@ Gain reputation points with each verified bug and conquer the top of the weekly 
 {% embed url="https://hackenproof.com/register" %}
 
 ## WPA/WPA2 PSK
-
+https://github.com/MrBlackPhoenix
 ### PMKID
 
 In 2018 hashcat authors [disclosed](https://hashcat.net/forum/thread-7717.html) a new type of attack which not only relies **on one single packet**, but it doesn’t require any clients to be connected to our target AP but just communication between the attacker and the AP.
@@ -721,11 +722,11 @@ pears
 ```
 
 ### KARMA
-
+https://github.com/MrBlackPhoenix
 Karma attacks are a second form of rogue access point attack that exploits the network selection process used by stations. In a whitepaper written in 2005, Dino Dai Zovi and Shane Macaulay describe how an attacker can configure an access point to listen for directed probe requests and respond to all of them with matching directed probe responses. This causes the affected stations to automatically send an association request to the attacker’s access point. The access point then replies with an association response, causing the affected stations to connect to the attacker.
 
 ### MANA
-
+https://github.com/MrBlackPhoenix
 According to Ian de Villiers and Dominic White, modern stations are designed to protect themselves against karma attacks by ignoring directed probe responses from access points that have not already responded to at least one broadcast probe request. This led to a significant drop in the number of stations that were vulnerable to karma attacks until 2015, when White and de Villiers developed a means of circumventing such protections. In White’s and de Villiers’ improved karma attack (MANA attack), directed probe responses are used to reconstruct the PNLs of nearby stations. When a broadcast probe request is received from a station, the attacker’s access point responds with an arbitrary SSID from the station’s PNL already being saw in a direct probe from that device.
 
 In resume, the MANA algorithm works like this: each time the access point receives a probe request, it first determines whether it’s a broadcast or directed probe. If it’s directed probe, the sender’s MAC address is added to the hash table (if it’s not there already) and the ESSID is added to that device’s PNL. The AP then responds with a directed probe response. If it’s a broadcast probe, the access point responds with probe responses for each of the networks in that device’s PNL.
@@ -749,7 +750,7 @@ In resume, Loud MANA attack instead of responding to probe requests with each ES
 ```
 
 ### Known Beacon attack
-
+https://github.com/MrBlackPhoenix
 There are still cases in which Loud MANA attack won’t succeed.\
 The Known Beacon attack is a way to "Brute-Force" ESSIDs to try to get the victim connect to the attacker. The attacker creates an AP that response to any ESSID and run some code sending beacons faking ESSIDs of each name inside a wordlist. Hopefully the victim will contains some of theses ESSID names inside its PNL and will try to connect to the fake AP.\
 Eaphammer implemented this attack as a MANA attack where all the ESSIDs inside a list are charged (you could also combine this with `--loud` to create a Loud MANA + Known beacons attack):
@@ -772,7 +773,7 @@ As known beacons are loud. You can use a script inside Eaphammer project to just
 ```
 
 ## Wi-Fi Direct
-
+https://github.com/MrBlackPhoenix
 Wi-Fi Direct is a Wi-Fi standard that allows devices to connect to each other without a wireless AP as one of the two devices will act as AP (called group owner). You can find Wi-Fi Direct in a lot of IoT devices like printers, TVs...
 
 Wi-Fi Direct relies on Wi-Fi Protected Setup (**WPS**) to securely connect the devices. WPS has multiple configuration methods such as **Push-Button** Configuration (PBC), **PIN entry**, and **Near-Field** Communication (NFC)
@@ -780,6 +781,6 @@ Wi-Fi Direct relies on Wi-Fi Protected Setup (**WPS**) to securely connect the d
 So the attacks previously seen to WPS PIN are also valid here if PIN is used.
 
 ### EvilDirect Hijacking
-
+https://github.com/MrBlackPhoenix
 This works like an Evil-Twin but for Wi-Fi direct, you can impersonate a group owner to try to make other devices like phons connect to you: `airbase-ng -c 6 -e DIRECT-5x-BRAVIA -a BB:BB:BB:BB:BB:BB mon0`
- 
+ https://github.com/MrBlackPhoenix
