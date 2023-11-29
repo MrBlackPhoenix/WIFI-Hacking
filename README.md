@@ -1,11 +1,11 @@
 # WIFI Penetration Testing
 
 
-## Basic wifi linux commands
+## Basic linux wifi commands
 
 ```bash
 ip link show #List available interfaces
-iwconfig #List available interfaces
+iwconfig #List available **wireless** interfaces
 airmon-ng check kill #Kill annoying processes
 airmon-ng start wlan0 #Monitor mode
 airmon-ng stop wlan0mon #Managed mode
