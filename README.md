@@ -210,7 +210,7 @@ A simple packet fuzzer with multiple packet sources and a nice set of modifiers.
 
 _**Airgeddon**_ offers most of the attacks proposed in the previous comments:
 
-![](<https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-L_2uGJGU7AVNRcqRvEi%2F-LrdkBtWk80vqhdkrKSD%2F-Lre3V6WSKH94Z9i4R2k%2Fimage.png?alt=media&token=bc4f7fbb-1437-4d9f-b14b-2dadeda0585f>)
+![](<[https://1517081779-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-L_2uGJGU7AVNRcqRvEi%2F-LrdkBtWk80vqhdkrKSD%2F-Lre3V6WSKH94Z9i4R2k%2Fimage.png?alt=media&token=bc4f7fbb-1437-4d9f-b14b-2dadeda0585f](https://github.com/MrBlackPhoenix/pictures/blob/main/1.webp)>)
 
 ## WPS
 
