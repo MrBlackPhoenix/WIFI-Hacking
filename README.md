@@ -5,14 +5,16 @@
 
 ```bash
 ip link show #List available interfaces
-iwconfig #List available **wireless** interfaces
+ifconfig # list available interface
+ifconfig wlan0 down/up #down/up interface wlan0
+iwconfig #List available  wireless interfaces
+iwconfig wlan0 mode monitor #Put in mode monitor
+iwconfig wlan0mon mode managed #Quit mode monitor - managed mode
 airmon-ng check kill #Kill annoying processes
 airmon-ng start wlan0 #Monitor mode
 airmon-ng stop wlan0mon #Managed mode
 airodump-ng wlan0mon #Scan (default 2.4Ghz)
 airodump-ng wlan0mon --band a #Scan 5Ghz
-iwconfig wlan0 mode monitor #Put in mode monitor
-iwconfig wlan0mon mode managed #Quit mode monitor - managed mode
 iw dev wlan0 scan | grep "^BSS\|SSID\|WSP\|Authentication\|WPS\|WPA" #Scan available wifis
 ```
 
